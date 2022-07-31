@@ -2,9 +2,24 @@
 <html>
     <head>
         <title>Meadowlark Travel</title>
-        <img src="/img/logo.png" alt="Meadowlark Travel Logo">
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
     </head>
     <body>
-        {{{body}}}
+        <div class="container">
+            <header>
+                <div class="container">
+                    <h1>Meadowlark Travel</h1>
+                    <img src="/img/logo.png" alt="Meadowlark Travel Logo">
+                </div>
+            </header>
+            <div class="container">
+                {{{body}}}
+            </div>
+            <footer>&copy;2019 Meadowlark Travel</footer>
+        </div>
+        
+        <script src="/js/bootstrap.min.js"></script>
+
+        {{{_sections.script}}}
     </body>
 </html>
